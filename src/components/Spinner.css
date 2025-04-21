@@ -1,0 +1,83 @@
+.spinner rect {
+    animation: spinner-base 1.2s linear infinite;
+  }
+  .spinner rect {
+    fill: white;
+    animation: spinner-base 1.2s linear infinite;
+  }
+  
+  
+  .spinner_LWk7 {
+    animation-name: spinner-base, spinner-BNNO;
+  }
+  
+  .spinner_yOMU {
+    animation-name: spinner-base, spinner-pVqn;
+    animation-delay: 0.15s;
+  }
+  
+  .spinner_KS4S {
+    animation-name: spinner-base, spinner-6uKB;
+    animation-delay: 0.3s;
+  }
+  
+  .spinner_zVee {
+    animation-name: spinner-base, spinner-Qw4x;
+    animation-delay: 0.45s;
+  }
+  
+  @keyframes spinner-base {
+    0%, 50% {
+      width: 9px;
+      height: 9px;
+    }
+    10% {
+      width: 11px;
+      height: 11px;
+    }
+  }
+  
+  @keyframes spinner-BNNO {
+    0%, 50% {
+      x: 1.5px;
+      y: 1.5px;
+    }
+    10% {
+      x: 0.5px;
+      y: 0.5px;
+    }
+  }
+  
+  @keyframes spinner-pVqn {
+    0%, 50% {
+      x: 13.5px;
+      y: 1.5px;
+    }
+    10% {
+      x: 12.5px;
+      y: 0.5px;
+    }
+  }
+  
+  @keyframes spinner-6uKB {
+    0%, 50% {
+      x: 13.5px;
+      y: 13.5px;
+    }
+    10% {
+      x: 12.5px;
+      y: 12.5px;
+    }
+  }
+  
+  @keyframes spinner-Qw4x {
+    0%, 50% {
+      x: 1.5px;
+      y: 13.5px;
+    }
+    10% {
+      x: 0.5px;
+      y: 12.5px;
+    }
+  }
+  
