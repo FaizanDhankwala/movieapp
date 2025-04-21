@@ -141,6 +141,19 @@
     }
   }
 }
+@keyframes yellowGlowPulse {
+  0%, 100% {
+    text-shadow: 0 0 10px #facc15, 0 0 20px #facc15;
+  }
+  50% {
+    text-shadow: 0 0 20px #fde047, 0 0 40px #fde047;
+  }
+}
+
+.text-gradient-yellow-glow {
+  @apply bg-gradient-to-r from-yellow-300 to-yellow-500 bg-clip-text text-transparent;
+  animation: yellowGlowPulse 2s ease-in-out infinite;
+}
 
 @utility text-gradient {
   @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
