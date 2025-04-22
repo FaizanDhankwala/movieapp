@@ -1,3 +1,20 @@
+# CINESCOPE 
+![CineScope](https://github.com/user-attachments/assets/178c9944-a553-4c77-bfff-a6e66bee581b)
+
+Cinescop is a full-stack movie discovery web app built with React, Vite, TailwindCSS, and Appwrite. It allows users to search and explore movies using the TMDB API with a debounced search experience that minimizes API calls. The app tracks trending movies based on user searches and displays them alongside real-time search results. Cinescop features a responsive design, smooth loading states with spinners, and secure data fetching using token-based authentication, all deployed through GitHub Pages.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
