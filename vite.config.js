@@ -5,9 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: '/movieapp/' // This is the repo name!
-})
 
+export default defineConfig(({ mode }) => ({
+  plugins: [react(), tailwindcss()],
+  base: mode === 'development' ? '/' : '/movieapp/', // auto-switches!
+}))
 
